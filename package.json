@@ -1,45 +1,45 @@
 {
-  "name": "BIMatUBC-Course-Review",
-  "version": "0.0.0",
-  "private": true,
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "gh:deploy": "bun utils/gh-deploy.js",
-    "preview": "vite preview",
-    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
-    "format": "prettier --write .",
-    "clasp:config": "bun utils/clasp-deploy.js config",
-    "clasp:pull": "bun utils/clasp-deploy.js pull",
-    "clasp:push": "bun utils/clasp-deploy.js push",
-    "clasp:deploy": "bun utils/clasp-deploy.js deploy"
-  },
-  "dependencies": {
-    "ajv": "^8.16.0",
-    "ajv-formats": "^3.0.1",
-    "axios": "^1.7.2",
-    "dotenv": "^16.4.5",
-    "pinia": "^2.1.7",
-    "uuid": "^10.0.0",
-    "vue": "^3.4.31",
-    "vue-router": "^4.4.0"
-  },
-  "devDependencies": {
-    "@google/clasp": "^2.4.2",
-    "@rushstack/eslint-patch": "^1.10.3",
-    "@stylistic/eslint-plugin-js": "^2.3.0",
-    "@vitejs/plugin-vue": "^5.0.5",
-    "@vue/eslint-config-prettier": "^9.0.0",
-    "autoprefixer": "^10.4.19",
-    "eslint": "^8.57.0",
-    "eslint-plugin-googleappsscript": "^1.0.5",
-    "eslint-plugin-vue": "^9.26.0",
-    "postcss": "^8.4.39",
-    "prettier": "^3.3.2",
-    "sass": "^1.77.6",
-    "simple-git": "^3.25.0",
-    "tailwindcss": "^3.4.4",
-    "vite": "^5.3.2"
-  }
+	"name": "BIMatUBC-Course-Review",
+	"version": "0.0.0",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"gh:deploy": "bun utils/gh-deploy.js",
+		"preview": "vite preview",
+		"lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
+		"format": "prettier --write .",
+		"clasp:config": "bun utils/clasp-deploy.js config",
+		"clasp:pull": "bun utils/clasp-deploy.js pull",
+		"clasp:push": "bun utils/clasp-deploy.js push",
+		"clasp:deploy": "bun utils/clasp-deploy.js deploy"
+	},
+	"dependencies": {
+		"ajv": "^8.16.0",
+		"ajv-formats": "^3.0.1",
+		"axios": "^1.7.2",
+		"dotenv": "^16.4.5",
+		"pinia": "^2.1.7",
+		"uuid": "^10.0.0",
+		"vue": "^3.4.31",
+		"vue-router": "^4.4.0"
+	},
+	"devDependencies": {
+		"@google/clasp": "^2.4.2",
+		"@rushstack/eslint-patch": "^1.10.3",
+		"@stylistic/eslint-plugin-js": "^2.3.0",
+		"@vitejs/plugin-vue": "^5.0.5",
+		"@vue/eslint-config-prettier": "^9.0.0",
+		"autoprefixer": "^10.4.19",
+		"eslint": "^8.57.0",
+		"eslint-plugin-googleappsscript": "^1.0.5",
+		"eslint-plugin-vue": "^9.26.0",
+		"postcss": "^8.4.39",
+		"prettier": "^3.3.2",
+		"sass": "^1.77.6",
+		"simple-git": "^3.25.0",
+		"tailwindcss": "^3.4.4",
+		"vite": "^5.3.2"
+	}
 }

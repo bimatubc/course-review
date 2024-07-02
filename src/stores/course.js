@@ -46,7 +46,7 @@ export const useCourseStore = defineStore({
 			this.loading = true
 			this.error = null
 
-      console.log(API_URL)
+			console.log(API_URL)
 
 			try {
 				const response = await axios.get(API_URL, {

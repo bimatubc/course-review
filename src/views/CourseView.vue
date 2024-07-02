@@ -139,7 +139,7 @@ const averageWorkload = computed(() => {
 })
 
 const openReviewForm = () => {
-	const url = 'https://forms.gle/8sSfxZrQTLRvx1zz7'
+	const url = 'https://forms.gle/AsDzj1gyHqvmG8Um7'
 	window.open(url, '_blank')
 }
 
